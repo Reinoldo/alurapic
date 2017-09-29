@@ -23,8 +23,9 @@ var FotoComponent = /** @class */ (function () {
     ], FotoComponent.prototype, "titulo", void 0);
     FotoComponent = __decorate([
         core_1.Component({
+            moduleId: module.id,
             selector: 'foto',
-            templateUrl: './app/foto/foto.component.html',
+            templateUrl: './foto.component.html',
         })
     ], FotoComponent);
     return FotoComponent;
